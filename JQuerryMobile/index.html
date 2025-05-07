@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple jQuery Mobile eCommerce App</title>
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- jQuery & jQuery Mobile JS -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+
+  <div data-role="header">
+    <h1>ShopEasy</h1>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#product1">Product 1 - ₹100</a></li>
+      <li><a href="#product2">Product 2 - ₹200</a></li>
+    </ul>
+  </div>
+
+  <div data-role="footer">
+    <h4>&copy; 2025 ShopEasy</h4>
+  </div>
+
+</div>
+
+<!-- Product 1 Page -->
+<div data-role="page" id="product1">
+
+  <div data-role="header">
+    <a href="#home" data-icon="back">Back</a>
+    <h1>Product 1</h1>
+  </div>
+
+  <div data-role="content">
+    <p><strong>Product Name:</strong> Product 1</p>
+    <p><strong>Price:</strong> ₹100</p>
+    <p><strong>Description:</strong> This is a basic item.</p>
+    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-b">Add to Cart</a>
+  </div>
+
+</div>
+
+<!-- Product 2 Page -->
+<div data-role="page" id="product2">
+
+  <div data-role="header">
+    <a href="#home" data-icon="back">Back</a>
+    <h1>Product 2</h1>
+  </div>
+
+  <div data-role="content">
+    <p><strong>Product Name:</strong> Product 2</p>
+    <p><strong>Price:</strong> ₹200</p>
+    <p><strong>Description:</strong> Another great item.</p>
+    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-b">Add to Cart</a>
+  </div>
+
+</div>
+
+</body>
+</html>
